@@ -1,0 +1,112 @@
+
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+
+/*   navBar  */
+
+nav{
+    color: white;
+}
+img{
+    width: 10%;
+    margin-right: 5%;
+}
+
+/*************************** Sign Up*********************************************/
+
+
+
+#signUp
+{
+    width: 40%;
+    height: 50vh;
+  background-color: white;
+}
+.dflex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-control{
+    display: inline;
+    border-radius: 0;
+    margin-top: 20px;
+}
+#signUpPass
+{
+    display: inline-block;
+}
+.button-edit
+{
+    padding: 5px 50px;
+    border-radius: 1rem;
+    border: 0.5px solid black;
+
+
+}
+
+ #signInButton
+{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    background-blend-mode:multiply;
+    margin-top: 60px;
+    transition: all 0.5s;
+} 
+ #signInButton:hover
+{
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    background-blend-mode:multiply;
+    margin-top: 60px;
+} 
+#success
+{
+    display: none;
+    color: green;
+}
+.alertEditUp{
+    display:inline-block;
+    height: 50px;
+}
+
+/*************************** Sign In*********************************************/
+
+#signUpButton
+{
+    margin: 10px 0;
+}
+.alertEdit{
+    display:inline-block;
+    height: 25px;
+    
+}
+
+/**************************** Home ********************************************/
+
+#welcome
+{
+    width: 70%;
+    height: 50vh;
+    background: linear-gradient(90deg,#1ad5e6,#0824a2 );
+}
+
+
+/**************************** footer********************************************/
+
+
+.copyright{
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    padding:0 ;
+
+}
